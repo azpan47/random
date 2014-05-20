@@ -1,0 +1,37 @@
+- what do we want the tool to do?
+
+use case:
+user at a given place. wants to know the best way to experience the place/city with a given time, money, transportaion and other interest preferences (like gender, sexuality, mood, etc)
+
+
+v1:
+requirements:
+time, money, travelling preference
+24h, 200$, public : new york
+
+result:
+empire state building, $50
+	transportation options
+		1. taxi, $10, 00:10
+		2. subway, $3, 00:20
+	be done by 04:00
+
+metropolitan meuseum, $50
+	transportation options
+		1. taxi, $10, 00:10
+		2. subway, $3, 00:20
+	be done by 08:00
+
+broadway show, $80
+	transportation options
+		1. taxi, $10, 00:10
+		2. subway, $3, 00:20
+	be done by 12:00
+	
+bike brooklyn bridge, $20
+	transportation options
+		1. taxi, $10, 00:10
+		2. subway, $3, 00:20
+	be done by 16:00
+
+get some sleep dude!!	
