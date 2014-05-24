@@ -1,0 +1,10 @@
+#!/bin/bash
+
+dir="/media/azpan/64129DD7456AA94F/dload/music/faves"
+
+pid=$(ps ax | grep '[m]player -playlist' | awk '{print $1}')
+fname=$(lsof -F -p $pid | grep 'mp3$' | sed 's/^n//')
+
+echo $fname
+
+echo $fname >> $dir
