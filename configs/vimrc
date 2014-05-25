@@ -1,0 +1,5 @@
+syntax on
+set smartindent
+set autoindent
+colorscheme desert
+set number
