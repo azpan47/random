@@ -4,6 +4,7 @@ import urllib2 as ul2
 import urllib as ul
 import re
 import Parser
+import dloader
 
 url = "http://brahmasri.com/Rama"
 ext = "mp3"
@@ -21,9 +22,14 @@ parser = Parser.Parser("a", "href")
 
 parser.feed(html)
 
+urls = []
+
 for result in parser.results:
 	if(cre.search(result)):
-		print result
+		#print result
+		urls.append(result)
+
+dl = dloader.dloader(urls)
 
 response.close()
 
