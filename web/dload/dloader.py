@@ -18,7 +18,9 @@ class dloader:
 			self.download_file(url, desc)
 
 	def download_file(self, url, desc):
+		print url
 		url = ul2.unquote(url)
+		print url
 		scheme, netloc, path, query, fragment = up.urlsplit(url)
 		fname = os.path.basename(path)
 		dname = os.path.dirname(path)

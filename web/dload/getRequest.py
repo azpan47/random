@@ -6,8 +6,10 @@ import re
 import Parser
 import dloader
 
-url = "http://brahmasri.com/Rama"
-ext = "mp3"
+url = "http://brahmasri.com/ShivaMahaPuranam"
+url = "http://odin-server.fr.nf/public/PARTAGE/torrents/Ethical%20Hacking%20and%20Penetration%20Testing%20%28Kali%20Linux%29/"
+ext = "mp4"
+
 cre = re.compile(ext)
 
 response = ul2.urlopen(url)
@@ -26,11 +28,10 @@ urls = []
 
 for result in parser.results:
 	if(cre.search(result)):
+		result = url + result
 		#print result
 		urls.append(result)
 
-dl = dloader.dloader(urls)
-
 response.close()
 
-
+dl = dloader.dloader(urls, "/media/azpan/TOSHIBA EXT/dload/auto")
