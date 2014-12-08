@@ -6,12 +6,18 @@ import xml.etree.ElementTree as et
 class NXapiCommon:
 	def __init__(self, cfgfile="nxapi.cfg"):
 		cfg = self.__loadconfig(cfgfile)
+		self.url = "https://%s:%s/api/%s/xml" % (cfg["hostname"], cfg["port"], cfg["version"])
 		self.headers = {"Content-type" : "text/xml"}
 		if not self.__login(cfg):
 				print "Login failed"
 				print self.logerror
 				sys.exit(1)
 		print self.sessionid
+
+		if not self.__logout():
+				print "Logout failed"
+				print self.logerror
+				sys.exit(1)
 
 
 	def __loadconfig(self, cfgfile):
@@ -30,14 +36,13 @@ class NXapiCommon:
 			print "Error parsing config file"
 			raise e
 
-		cfg["url"] = "https://%s:%s/api/%s/xml" % (cfg["hostname"], cfg["port"], cfg["version"])
 
 		return cfg
 
 	def __login(self, cfg):
 		data = "<LoginRequest user-id=\"%s\" password=\"%s\" />" % (cfg["username"], cfg["password"])
 		try:
-			req = urllib2.Request(cfg["url"], data, self.headers)
+			req = urllib2.Request(self.url, data, self.headers)
 			response = urllib2.urlopen(req)
 			content = response.read()
 
@@ -55,5 +60,24 @@ class NXapiCommon:
 			raise e
 			sys.exit(1)
 
+	def __logout(self):
+		data =  "<LogoutRequest session-id=\"%s\" />" % (self.sessionid)
+		try:
+			req = urllib2.Request(self.url, data, self.headers)
+			response = urllib2.urlopen(req)
+			content = response.read()
+
+			resxml = et.fromstring(content)
+
+			if resxml.attrib.get('success') != '0':
+				return True
+			else
+				self.logerror = resxml[0][0][0].text
+				return False
+
+		except Exception as e:
+			print "Exception logging out"
+			raise e
+			sys.exit(1)
 		
 		
