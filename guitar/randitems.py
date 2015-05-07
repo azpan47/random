@@ -3,10 +3,12 @@
 
 from random import randint
 import time
+import sys
 
 items = [ 'C', 'G', 'D', 'Em' ]
-lag = 10
+lag = 3
 
 while True:
-	print items[randint(0,len(items)-1)]
+	sys.stdout.write("%s \r" % items[randint(0,len(items)-1)])
+	sys.stdout.flush()
 	time.sleep(lag)
