@@ -1,0 +1,31 @@
+M - Gains 0.1 - 0.3 kg per C
+  So string C x 0.2 lower than required
+
+C - Loses 10% of the pull
+  So string required + 10 %
+
+
+#######
+M - Solicon Tour Bite 16
+C - Technifibre biphase xone 16
+#######
+
+M 53 -> expect 56
+C 65 -> expect 59
+
+Result
+M 72
+C 48
+
+#######
+M C - Volkyl Cyclone 16
+#######
+
+M 50 -> expect 60
+C 69 -> expect 60
+
+M - 44
+
+Result
+M
+C
