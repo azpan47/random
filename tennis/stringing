@@ -27,5 +27,5 @@ C 69 -> expect 60
 M - 44
 
 Result
-M
-C
+M 66
+C 58
