@@ -8,6 +8,7 @@ C - Loses 10% of the pull
 #######
 M - Solicon Tour Bite 16
 C - Technifibre biphase xone 16
+Pattern: 16 x 19
 #######
 
 M 53 -> expect 56
@@ -19,6 +20,7 @@ C 48
 
 #######
 M C - Volkyl Cyclone 16
+Pattern: 16 x 18
 #######
 
 M 50 -> expect 60
@@ -32,6 +34,7 @@ C 58
 
 #######
 M C - Gamma Zodart 16 poly
+Pattern: 16 x 16
 #######
 
 M 45 -> expect 51
