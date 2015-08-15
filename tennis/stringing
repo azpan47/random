@@ -29,3 +29,11 @@ M - 44
 Result
 M 66
 C 58
+
+#######
+M C - Gamma Zodart 16 poly
+#######
+
+M 45 -> expect 51
+C 62 -> expect 51
+
