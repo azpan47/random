@@ -40,3 +40,15 @@ Pattern: 16 x 16
 M 42 -> target 51 -> expect 54
 C 62 -> target 51 -> expect 52
 
+Interim-
+Mains only (16) - 30
+
+Result -
+M - 50.5
+C - 48
+
+
+
+
+
+
