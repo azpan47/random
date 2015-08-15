@@ -37,6 +37,6 @@ M C - Gamma Zodart 16 poly
 Pattern: 16 x 16
 #######
 
-M 42 -> expect 51
-C 62 -> expect 51
+M 42 -> target 51 -> expect 54
+C 62 -> target 51 -> expect 52
 
