@@ -62,7 +62,7 @@ M 54 -> target 55 -> expect 58
 C 66 -> target 51 -> expect 52
 
 Result
-M 
-C 
+M 60
+C 54
 
 
