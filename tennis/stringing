@@ -48,7 +48,21 @@ M - 50.5
 C - 48
 
 
+#######
+M - Technifibre biphase xone 16
+C - Solicon Tour Bite 16
+Pattern: 16 x 19
+#######
 
 
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+	Assuming 0.1kg per C, lower estimate since multi
+
+M 54 -> target 55 -> expect 58
+C 66 -> target 51 -> expect 52
+
+Result
+M 
+C 
 
 
