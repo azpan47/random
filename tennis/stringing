@@ -116,3 +116,42 @@ Mains only (16) - 38
 Result
 M - 60
 C - 49
+
+#######
+M - Technifibre biphase xone 16
+C - Luxilon Original rough16
+Pattern: 16 x 19
+#######
+
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+       Assuming 0.1kg per C, lower estimate since multi
+
+M 44 -> target 53 -> expect 54
+C 66 -> target 49 -> expect 51
+
+Interim-
+Mains only (16) - 32
+
+Result
+M - 54
+C - 45
+
+#######
+M - Wilson NXT 16
+C - Luxilon Original 16
+K 90
+Pattern: 16 x 19
+#######
+
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+       Assuming 0.1kg per C, lower estimate since multi
+
+M 42 -> target 53 -> expect 52
+C 70 -> target 49 -> expect 50
+
+Interim-
+Mains only (16) - 34
+
+Result
+M - 51
+C - 45 
