@@ -215,3 +215,43 @@ Mains only (16) - 32
 Result
 M - 55
 C - 50
+
+#######
+M - Wilson NXT 16
+C - Luxilon Original 16
+PS 90 blx
+Pattern: 16 x 19
+#######
+
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+       Assuming 0.1kg per C, lower estimate since multi
+
+M 43 -> target 55 -> expect 55
+C 72 -> target 51 -> expect 51
+
+Interim-
+Mains only (16) - 33
+
+Result
+M - 54 
+C - 46 
+
+#######
+M - Wilson NXT 16
+C - Luxilon Original 16
+K 90 2
+Pattern: 16 x 19
+#######
+
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+       Assuming 0.1kg per C, lower estimate since multi
+
+M 43 -> target 55 -> expect 55
+C 72 -> target 51 -> expect 51
+
+Interim-
+Mains only (16) - 36
+
+Result
+M - 56 
+C - 52
