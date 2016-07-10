@@ -255,3 +255,23 @@ Mains only (16) - 36
 Result
 M - 56 
 C - 52
+
+#######
+M - biphase 
+C - Luxilon Original 16
+K 90 2
+Pattern: 16 x 19
+#######
+
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+       Assuming 0.1kg per C, lower estimate since multi
+
+M 45 -> target 58
+C 73 -> target 54
+
+Interim-
+Mains only (16) - 36
+
+Result
+M - 
+C - 
