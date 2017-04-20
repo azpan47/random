@@ -286,8 +286,8 @@ Pattern: 16 x 19
 M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
        Assuming 0.1kg per C, lower estimate since multi
 
-M 45 -> target 58
-C 74 -> target 54
+M 46 -> target 55
+C 72 -> target 55
 
 Interim-
 Mains only (16) - 33
@@ -295,3 +295,64 @@ Mains only (16) - 33
 Result
 M - 57 
 C - 53 
+
+#######
+M - solinco tour bite
+C - solinco tour bite
+RF 97
+Pattern: 16 x 19
+#######
+
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+       Assuming 0.1kg per C, lower estimate since multi
+
+M 46 -> target 58
+C 68 -> target 54
+
+Interim-
+Mains only (16) - 37
+
+Result
+M -  59
+C -  55 
+
+#######
+M - biphase 
+C - Luxilon Original 16
+blx
+Pattern: 16 x 19
+#######
+
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+       Assuming 0.1kg per C, lower estimate since multi
+
+M 43 -> target 52
+C 70 -> target 49
+
+Interim-
+Mains only (16) - 37
+
+Result
+M - 54
+C - 48
+
+#######
+M - biphase
+C - Luxilon big banger original
+RF 97
+Pattern: 16 x 19
+#######
+
+M : 55 - 0.22 x 19 = 51, but multi stretches so add a few pounds
+       Assuming 0.1kg per C, lower estimate since multi
+
+M 44 -> target 55
+C 71 -> target 51
+
+Interim-
+Mains only (16) - 36.5 
+
+Result
+M - 59
+C - 47
+
